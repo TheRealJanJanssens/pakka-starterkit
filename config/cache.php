@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('CACHE_DRIVER', 'file'),
+    'default' => env('CACHE_DRIVER', 'tfile'),
 
     /*
     |--------------------------------------------------------------------------
@@ -52,6 +52,11 @@ return [
         'file' => [
             'driver' => 'file',
             'path' => storage_path('framework/cache/data'),
+        ],
+
+        'tfile' => [
+            'driver' => 'tfile',
+            'path'   => storage_path('framework/cache/data')
         ],
 
         'memcached' => [

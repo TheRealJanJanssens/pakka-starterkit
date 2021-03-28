@@ -13,9 +13,13 @@
 cp .env.example .env
 php artisan key:generate 
 
+fill .env
+
 composer install
 npm install
 
 php artisan pakka-install
+
+change CACHE_DRIVER=tfile in .env
 
 ```
