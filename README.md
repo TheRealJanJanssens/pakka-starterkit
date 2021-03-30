@@ -21,5 +21,13 @@ npm install
 php artisan pakka-install
 
 change CACHE_DRIVER=tfile in .env
+```
 
+## Bug Fixing
+```
+php artisan config:clear
+php artisan cache:clear
+php artisan view:clear
+php artisan route:clear
+composer dump-autoload
 ```
