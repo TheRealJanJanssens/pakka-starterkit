@@ -35,8 +35,7 @@
         "spatie/laravel-honeypot": "^3.0",
         "spatie/laravel-image-optimizer": "^1.6",
         "spatie/laravel-sitemap": "^5.9",
-        "therealjanjanssens/pakka": "^0.1.1",
-        "unikent/tfilecache": "dev-master"
+        "therealjanjanssens/pakka": "^0.1.7"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
