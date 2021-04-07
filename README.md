@@ -19,8 +19,6 @@ composer install
 npm install
 
 php artisan pakka-install
-
-change CACHE_DRIVER=tfile in .env
 ```
 
 ## Bug Fixing
