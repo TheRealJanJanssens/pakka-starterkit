@@ -19,6 +19,7 @@ composer install
 npm install
 
 php artisan pakka-install
+php artisan migrate
 ```
 
 ## Bug Fixing
