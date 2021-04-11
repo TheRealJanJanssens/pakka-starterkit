@@ -7,19 +7,20 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## Install
 
 ```
 cp .env.example .env
-php artisan key:generate 
 
 fill .env
 
 composer install
 npm install
 
+php artisan key:generate 
 php artisan pakka-install
 php artisan migrate
+php artisan db:seed
 ```
 
 ## Bug Fixing
