@@ -7683,16 +7683,16 @@
         },
         {
             "name": "therealjanjanssens/pakka",
-            "version": "0.2.3",
+            "version": "0.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TheRealJanJanssens/pakka.git",
-                "reference": "e8a37358cb03c385d37bdfeb6bee153b972e63ad"
+                "reference": "470156697fa212281613969501004ffb8ac3f54a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TheRealJanJanssens/pakka/zipball/e8a37358cb03c385d37bdfeb6bee153b972e63ad",
-                "reference": "e8a37358cb03c385d37bdfeb6bee153b972e63ad",
+                "url": "https://api.github.com/repos/TheRealJanJanssens/pakka/zipball/470156697fa212281613969501004ffb8ac3f54a",
+                "reference": "470156697fa212281613969501004ffb8ac3f54a",
                 "shasum": ""
             },
             "require": {
@@ -7735,7 +7735,8 @@
             "autoload": {
                 "psr-4": {
                     "TheRealJanJanssens\\Pakka\\": "src",
-                    "TheRealJanJanssens\\Pakka\\Database\\Factories\\": "database/factories"
+                    "TheRealJanJanssens\\Pakka\\Database\\Factories\\": "database/factories",
+                    "TheRealJanJanssens\\Pakka\\Database\\Seeders\\": "database/seeders"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -7757,7 +7758,7 @@
             ],
             "support": {
                 "issues": "https://github.com/TheRealJanJanssens/pakka/issues",
-                "source": "https://github.com/TheRealJanJanssens/pakka/tree/0.2.3"
+                "source": "https://github.com/TheRealJanJanssens/pakka/tree/0.2.5"
             },
             "funding": [
                 {
@@ -7765,7 +7766,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-04-11T13:21:40+00:00"
+            "time": "2021-04-11T19:54:35+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
