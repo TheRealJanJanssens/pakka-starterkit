@@ -7680,16 +7680,16 @@
         },
         {
             "name": "therealjanjanssens/pakka",
-            "version": "0.3.3",
+            "version": "0.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TheRealJanJanssens/pakka.git",
-                "reference": "ebfeea27c6e345e46efe92d3ea4e2eb5c076c7a0"
+                "reference": "95c1463d8cb652884dad5a3ab8fcfd6d5029ab42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TheRealJanJanssens/pakka/zipball/ebfeea27c6e345e46efe92d3ea4e2eb5c076c7a0",
-                "reference": "ebfeea27c6e345e46efe92d3ea4e2eb5c076c7a0",
+                "url": "https://api.github.com/repos/TheRealJanJanssens/pakka/zipball/95c1463d8cb652884dad5a3ab8fcfd6d5029ab42",
+                "reference": "95c1463d8cb652884dad5a3ab8fcfd6d5029ab42",
                 "shasum": ""
             },
             "require": {
@@ -7755,7 +7755,7 @@
             ],
             "support": {
                 "issues": "https://github.com/TheRealJanJanssens/pakka/issues",
-                "source": "https://github.com/TheRealJanJanssens/pakka/tree/0.3.3"
+                "source": "https://github.com/TheRealJanJanssens/pakka/tree/0.3.4"
             },
             "funding": [
                 {
@@ -7763,7 +7763,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-05-01T17:24:21+00:00"
+            "time": "2021-05-01T18:16:17+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
