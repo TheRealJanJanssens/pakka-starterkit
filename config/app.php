@@ -165,6 +165,10 @@ return [
         /*
          * Package Service Providers...
          */
+        Unikent\Cache\TaggableFileCacheServiceProvider::class,
+        Barryvdh\DomPDF\ServiceProvider::class,
+        TheRealJanJanssens\Pakka\PakkaServiceProvider::class,
+        
 
         /*
          * Application Service Providers...
@@ -174,6 +178,12 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+
+        /*
+         * Custom Application Service Providers...
+         */
+        TheRealJanJanssens\Pakka\Providers\HelperServiceProvider::class,
+        TheRealJanJanssens\Pakka\Providers\MacroServiceProvider::class,
 
     ],
 
