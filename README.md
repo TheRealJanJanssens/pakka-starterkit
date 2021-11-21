@@ -19,8 +19,6 @@ npm install
 
 php artisan key:generate 
 php artisan pakka-install
-php artisan migrate
-php artisan db:seed
 ```
 
 ## Bug Fixing
