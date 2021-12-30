@@ -8603,16 +8603,16 @@
         },
         {
             "name": "therealjanjanssens/pakka",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TheRealJanJanssens/pakka.git",
-                "reference": "343af331d31b3911a75c58c607b8d55cbc004ac5"
+                "reference": "a78b8a0bbcbd672d25b15178c58966b3a29f1279"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TheRealJanJanssens/pakka/zipball/343af331d31b3911a75c58c607b8d55cbc004ac5",
-                "reference": "343af331d31b3911a75c58c607b8d55cbc004ac5",
+                "url": "https://api.github.com/repos/TheRealJanJanssens/pakka/zipball/a78b8a0bbcbd672d25b15178c58966b3a29f1279",
+                "reference": "a78b8a0bbcbd672d25b15178c58966b3a29f1279",
                 "shasum": ""
             },
             "require": {
@@ -8683,7 +8683,7 @@
             ],
             "support": {
                 "issues": "https://github.com/TheRealJanJanssens/pakka/issues",
-                "source": "https://github.com/TheRealJanJanssens/pakka/tree/1.0.0"
+                "source": "https://github.com/TheRealJanJanssens/pakka/tree/1.0.1"
             },
             "funding": [
                 {
@@ -8691,7 +8691,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-11-16T21:35:06+00:00"
+            "time": "2021-12-30T22:59:25+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
