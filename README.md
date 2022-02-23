@@ -21,6 +21,13 @@ php artisan key:generate
 php artisan pakka-install
 ```
 
+## Autogit
+When not using autogit remove /storage from .gitignore to save all files in the repo.
+
+1. put everything in a www folder
+2. Copy .autogit.yml in root
+3. Put .env and /storage folder in /checkout/master/shared
+
 ## Bug Fixing
 ```
 php artisan config:clear

@@ -1,0 +1,50 @@
+#######################################################################################
+# ___       __    ______ ______              __________                 ______        #
+# __ |     / /_______  /____  /________________  /___(_)_____________ _ ___  /______  #
+# __ | /| / /_  _ \_  __ \_  __ \  __ \_  ___/  __/_  /__  __ \_  __ `/ __  __ \  _ \ #
+# __ |/ |/ / /  __/  /_/ /  / / / /_/ /(__  )/ /_ _  / _  / / /  /_/ /___  /_/ /  __/ #
+# ____/|__/  \___//_.___//_/ /_/\____//____/ \__/ /_/  /_/ /_/_\__, /_(_)_.___/\___/  # 
+#                                                            /____/                   #
+#######################################################################################
+# Autogit - config and deploy hooks                                                   #
+#######################################################################################
+# This YAML file, named as "autogit.yml" should be present                            #
+# in the root folder of your codebase                                                 # 
+#######################################################################################
+
+# Example shared files and folders:
+# shared_files: [ etc/config.yml ]
+# shared_folders: [ var/log ]
+
+# Hooks should be Bash shell scripts and get executed at different stages during deploy
+# Arguments: $1 = branch, $2 = commit id, $3 = checkout folder
+shared_files: [ www/.env ]
+shared_folders: [ www/storage ]
+hooks:
+  setup_before: |
+    exit 0
+  setup_after: |
+    exit 0
+
+  install_before: |
+    cd www
+    composer install
+    npm install
+    php artisan pakka-install
+  install_after: |
+    exit 0
+
+  sharedsymlink_before: |
+    rm -r www/storage
+  sharedsymlink_after: | 
+    exit 0
+
+  symlink_before: |
+    php artisan storage:link
+  symlink_after: |
+    exit 0
+
+  cleanup_before: |
+    exit 0
+  cleanup_after: |
+    php artisan optimize
